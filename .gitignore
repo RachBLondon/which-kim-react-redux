@@ -1,0 +1,8 @@
+.vagrant
+.idea
+credentials
+src/client/public/*
+node_modules
+*.log
+dist
+dist.zip
