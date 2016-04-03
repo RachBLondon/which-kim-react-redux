@@ -1,20 +1,20 @@
-import axios from 'axios';
-
-// import * types from '../constants/actionTypes';
-import { API_KEY}  from '../constants/API_KEY';
-export const GET_PHOTOS = 'GET_PHOTOS';
-
-
-const ROOT_URL = 'http://reduxblog.herokuapp.com/api'
-
-export function getPhotos(){
-  const request = axios.get(`${ROOT_URL}/posts${API_KEY}`);
-  console.log(request);
-  return {
-    type: GET_PHOTOS,
-    payload: request
-  };
-}
+// import axios from 'axios';
+//
+// // import * types from '../constants/actionTypes';
+// import { API_KEY}  from '../constants/API_KEY';
+// export const GET_PHOTOS = 'GET_PHOTOS';
+//
+//
+// const ROOT_URL = 'http://reduxblog.herokuapp.com/api'
+//
+// export function getPhotos(){
+//   const request = axios.get('/test');
+//   console.log('action',request);
+//   // return {
+//   //   type: GET_PHOTOS,
+//   //   payload: request
+//   // };
+// }
 
 
 
