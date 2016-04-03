@@ -6,10 +6,9 @@ import { connect } from 'react-redux';
 
 
 class Game extends Component {
-  componentWillMount(){
-    console.log("componentWillMount", this.state);
-    this.props.getPhotos()
-  }
+  // componentWillMount(){
+  //   this.props.getPhotos()
+  // }
 
   renderPosts(){
   return this.props.posts.map((post)=> {
